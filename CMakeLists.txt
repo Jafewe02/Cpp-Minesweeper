@@ -11,9 +11,6 @@ qt_standard_project_setup()
 
 qt_add_executable(Minesweeper
     main.cpp
-    mainwindow.cpp
-    mainwindow.h
-    mainwindow.ui
 )
 
 target_link_libraries(Minesweeper PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
